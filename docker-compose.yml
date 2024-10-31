@@ -63,4 +63,3 @@ volumes:
   postgres:
   localstack:
 
-# arbitrary change to trigger build
