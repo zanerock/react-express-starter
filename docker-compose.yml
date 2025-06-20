@@ -35,8 +35,8 @@ services:
       shipyard.init: 'npx sequelize-cli db:migrate'
       shipyard.route: '/api'
       shipyard.host.backend_alt: '{ "prefix": "foo" }'
-      shipyard.host.backend_alt2: '{ "prefix": "bar", route: "/api/v1" }'
-      shipyard.host.backend_alt3: '{ "prefix": "baz", route: "/api/v1", "port": 8081 }'
+      shipyard.host.backend_alt2: '{ "prefix": "bar", "route": "/api/v1" }'
+      shipyard.host.backend_alt3: '{ "prefix": "baz", "route": "/api/v1", "port": 8081 }'
     build:
       context: 'backend'
     environment:
