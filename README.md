@@ -25,4 +25,4 @@ and [Shipyard](https://shipyard.build) out of the box.
 - Visit http://localhost:8080/api/v1/files to list objects in LocalStack s3 bucket.
 - Make your code changes! The app will reload whenever you save.
 
-Trigger build
+Trigger a build
