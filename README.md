@@ -27,4 +27,4 @@ and [Shipyard](https://shipyard.build) out of the box.
 
 Cheers!
 
-Another commit build test.
+commit build test
